@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import img1 from '../assets/git.svg';
-import img2 from '../assets/html.svg';
+import img2 from '../assets/Html.svg';
 import img3 from '../assets/css.svg';
 import img4 from '../assets/figma.svg';
 import img5 from '../assets/js.svg';
