@@ -1,0 +1,67 @@
+.img{
+    background-image: url('./assets/hero1.jpg');
+    background-size: cover;
+    height: 90dvh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.body{
+  background: radial-gradient(#d7d7d7, #FFFFFF);  
+  font-family: Helvetica, sans-serif;
+}
+
+.port-img{
+    height: 70vh;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+   
+}
+.port-img:hover{
+    height: 80vh;
+}
+
+.port2-img{
+    width: 60%;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+
+.port2-img:hover{
+    width: 70%;
+}
+#portfolio{
+    background: radial-gradient(#283f73, #0f172a);
+    padding-block: 1rem ;
+}
+
+input{
+  padding: 1rem;
+  width: 80%;
+  margin: 0.3rem;
+  background-color: #D9D9D9;
+  border: 1px solid #bebbbb;
+
+}
+
+input:focus{
+  outline: none;
+  border: 1px solid #0f172a;
+  background-color: #D9D9D9;
+}
+
+form{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 1rem;
+} 
+
+@media (max-width : 500px) {
+    .img{
+        background-image: url('./assets/mobile.jpg');
+    }
+    
+}
+
+
